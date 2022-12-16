@@ -95,16 +95,34 @@ WantedBy=default.target
 
 ##### Commands
 
-* Install the caddy.service: `systemctl --user enable /home/pcontainers/.config/systemd/user/caddy.service`
-* Start the caddy.service: `systemctl --user start caddy.service`
-* Restart the service after a change to caddy.service file: `systemctl --user daemon-reload`, `systemctl --user restart caddy.service`
-* Restart the service after a change to Caddyfile file: `systemctl --user restart caddy.service`
-* Stop the caddy.service: `systemctl --user stop caddy.service`
-* Remove the caddy.service: `systemctl --user disable caddy.service`
+* Install the caddy.service:
+
+    `systemctl --user enable /home/pcontainers/.config/systemd/user/caddy.service`
+
+* Start the caddy.service:
+
+    `systemctl --user start caddy.service`
+
+* Restart the service after a change to caddy.service file:
+
+    `systemctl --user daemon-reload`, `systemctl --user restart caddy.service`
+
+* Restart the service after a change to Caddyfile file:
+
+    `systemctl --user restart caddy.service`
+
+* Stop the caddy.service:
+
+    `systemctl --user stop caddy.service`
+
+* Remove the caddy.service:
+
+    `systemctl --user disable caddy.service`
 
 ## Services
 
 ### [Duck DNS](http://www.duckdns.org)
 
 Registered sub-domain: melzak
+
 IPv4 and IPv6 have been set
