@@ -30,7 +30,7 @@ loginctl enable-linger
 
 /home/pcontainers/secrets/caddy.env
 
-/home/pcontainers/.config/systemd/user/[caddy.service](#caddy.service)
+/home/pcontainers/.config/systemd/user/[caddy.service](#caddyservice)
 
 /data/sites/melzak_site
 
