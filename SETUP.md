@@ -105,7 +105,10 @@ WantedBy=default.target
 
 * Restart the service after a change to caddy.service file:
 
-    `systemctl --user daemon-reload`, `systemctl --user restart caddy.service`
+    ```
+    systemctl --user daemon-reload
+    systemctl --user restart caddy.service
+    ```
 
 * Restart the service after a change to Caddyfile file:
 
