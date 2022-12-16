@@ -68,6 +68,9 @@ h2 {
   -webkit-backface-visibility: visible;
   transform: rotateY(-180deg);
 }
+.mirror {
+  transform: scale(-1, 1);
+}
 .card--inner {
   overflow: hidden;
   padding: 15px;
