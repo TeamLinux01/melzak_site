@@ -26,17 +26,17 @@ loginctl enable-linger
 
 /home/pcontainers/bin/caddy
 
-/home/pcontainers/.config/caddy/Caddyfile
+/home/pcontainers/.config/caddy/[Caddyfile](#Caddyfile)
 
 /home/pcontainers/secrets/caddy.env
 
-/home/pcontainers/.config/systemd/user/caddy.service
+/home/pcontainers/.config/systemd/user/[caddy.service](#caddy.service)
 
 /data/sites/melzak_site
 
 /data/assets/melzak
 
-##### Caddyfile:
+##### Caddyfile
 ```
 {
         admin off
