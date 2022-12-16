@@ -66,6 +66,7 @@ h2 {
   z-index: 0;
   backface-visibility: visible;
   -webkit-backface-visibility: visible;
+  transform: rotateY(-180deg);
 }
 .card--inner {
   overflow: hidden;
