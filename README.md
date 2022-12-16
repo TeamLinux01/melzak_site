@@ -5,3 +5,7 @@ This is what is used to build https://melzak.duckdns.org and assets, such as pic
 ## Request
 
 Please don't use the assets from https://assets.melzak.duckdns.org without my expressed permission for purposes other than this site.
+
+## SETUP
+
+Consult the [SETUP.md file](SETUP.md)
