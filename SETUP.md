@@ -49,6 +49,10 @@ loginctl enable-linger
                 dns duckdns {env.DUCKDNS_API_TOKEN}
         }
 
+        log {
+                output file /data/logs/caddy/melzak.duckdns.org-access.log
+        }
+
         @main {
                 host melzak.duckdns.org
         }
