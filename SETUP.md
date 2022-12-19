@@ -15,10 +15,19 @@
 * Cockpit service enabled and podman plugin added
 * Username: pcontainers
 
-Setup running systemd services on boot for pcontainers:
+Setup running systemd services on boot for pcontainers.
+
+Run command as root:
 ```
-loginctl enable-linger
+loginctl enable-linger pcontainers
 ```
+
+Check if loginctl is set for user:
+```
+ls /var/lib/systemd/linger/
+```
+
+It should show `pcontainers` in the directory.
 
 ### [Caddy Server](https://caddyserver.com)
 
