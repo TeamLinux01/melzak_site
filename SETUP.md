@@ -88,11 +88,12 @@ Wants=network-online.target
 [Service]
 EnvironmentFile=/home/pcontainers/secrets/caddy.env
 Type=notify
-ExecStart=/home/pcontainers/bin/caddy run \
+ExecStart=/home/pcontainers/bin/caddy \
+        run \
         --environ \
-        --watch \
         --config /home/pcontainers/.config/caddy/Caddyfile
-ExecReload=/home/pcontainers/bin/caddy \
+ExecReload=/home/pcontainers/bin/caddy
+        reload \
         --config /home/pcontainers/.config/caddy/Caddyfile
 TimeoutStopSec=5s
 LimitNOFILE=1048576
