@@ -114,6 +114,10 @@ WantedBy=default.target
 
 ##### Commands
 
+* Set Caddy to run on ports 80 & 443
+
+    `sudo setcap cap_net_bind_service=+ep /home/pcontainer/bin/caddy`
+
 * Install the caddy.service:
 
     `systemctl --user enable /home/pcontainers/.config/systemd/user/caddy.service`
